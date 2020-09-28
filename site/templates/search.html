@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+	{% block title %} 
+		Search Results
+	{% endblock %}
+	{% block content %}
+
+</br></br>
+{% for i in res %}
+<div>
+<p>{{res['hits']['hits'][loop.index]['_source']['fields']['title']}}</p>
+<p>{{res['hits']['hits'][loop.index]['_source']['fields']['directors']}}</p>
+<p>{{res['hits']['hits'][loop.index]['_source']['fields']['genres']}}</p>
+<p>{{res['hits']['hits'][loop.index]['_source']['fields']['plot']}}</p>
+</div>
+</br></br>
+{% endfor %}
+	{% endblock %}
