@@ -12,7 +12,6 @@ from nltk.stem.snowball import SnowballStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 def test_clean_data2():
 	assert utils.clean_data('') == False
 
