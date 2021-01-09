@@ -100,10 +100,8 @@ def generate_answer(type_request,query,df):
 				df = execute_search(str(query),"clean_summary",df)	
 				return df
 			else:
-				flash("Some informations are missing or incorrect","info")
 				return render_template("search.html")
 		else:
-			flash("Some informations are missing or incorrect","info")
 			return render_template("search.html")
 	except:
 		return render_template("search.html")
