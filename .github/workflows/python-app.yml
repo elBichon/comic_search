@@ -26,6 +26,7 @@ jobs:
         pip install flake8 pytest
         pip install -U pip setuptools wheel
         pip install -U spacy
+        pip install pandas
         pip install --user -U nltk
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
