@@ -1,7 +1,6 @@
 Flask==1.1.2
 gensim==3.8.3
 Jinja2==2.11.2
-nltk==3.5
 pandas==1.1.2
 scikit-learn==0.23.1
 Werkzeug==1.0.1
