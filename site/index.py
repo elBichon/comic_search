@@ -29,7 +29,6 @@ def search():
 			df = utils.generate_answer(request.form["type"],request.form["search"],df)
 			return render_template("search.html", column_names=df.columns.values, row_data=list(df.values.tolist()), zip=zip)
 		else:
-			flash("Some informations are missing or incorrect","info")
 			return render_template("search.html")
 	except:
 			return render_template("search.html")
