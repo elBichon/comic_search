@@ -18,7 +18,6 @@ def test_clean_data2():
 def test_clean_data3():
 	assert utils.clean_data(1) == False
 
-
 def test_read_data2():
 	assert utils.read_data('') == False
 
