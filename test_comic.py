@@ -2,7 +2,7 @@ import re
 import spacy
 from nltk.tokenize import word_tokenize
 import nltk
-import utils
+import site.utils as utils
 import pandas as pd
 from gensim.parsing.preprocessing import remove_stopwords
 import gensim
