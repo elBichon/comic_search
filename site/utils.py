@@ -27,6 +27,7 @@ def clean_data(text):
 	except:
 		return False
 
+
 def get_data(df,text,query):
 	try:
 		if len(str(query)) > 0 and isinstance(query, str) == True and len(str(text)) > 0 and isinstance(text, list) == True:
