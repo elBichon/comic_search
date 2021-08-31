@@ -26,7 +26,7 @@
 
 ## Use Cases:
 - [x] Connect to the site and send data for a search
-- [ ] After the search is done, do an additional research by (genres, publisher, writers, artist)
+- [x] After the search is done, do an additional research by (genres, publisher, writers, artist)
 ## Logs
 ## Conclusion
 
