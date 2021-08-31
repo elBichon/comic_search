@@ -9,8 +9,8 @@
 - [x] Learn to use flask to create a website
 - [x] Learn how to use elastic search to store, organize and query content
 - [x] Using scrapping to get data and create datasets on the related subjects
-- [ ] Using NLP to create a recommendation system for related contents
-- [ ] Learn how to host a website on the cloud (firebase, aws, gcp…)
+- [x] Using NLP to create a recommendation system for related contents
+- [x] Learn how to host a website on the cloud (firebase, aws, gcp…)
 - [ ] Learn how to add amazon affiliate links
 
 
